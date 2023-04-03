@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	font-family:
+	sans-serif;
+}
+
+.header {
+	margin: 20px;
+	color: white;
+	background: orange;
+	height: 70px;
+}
+
+.logo {
+	float: left;
+}
+
+.navbar {
+	float: right;
+}
+
+.navbar ul{
+	list-style: none;
+	padding-top: 10px;
+}
+
+.navbar ul li{
+	display: inline;
+	margin: 10px;}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar ul li a:hover {
+	border-bottom: 2px solid white;
+}
+
+.gambar {
+	width: 90%; 
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr; 
+	margin:auto;
+}
+
+.gambar .foto img{
+	width: 300px;
+}
+
+.foto {
+	border: 1px solid black; 
+	margin:10px; 
+	text-align: center; 
+}
+
+.foto a{border: 1px solid green; 
+	padding:10px; 
+	color: white; 
+	background: orange; 
+	text-decoration: none; 
+	border-radius: 20px; 
+	cursor: pointer;
+}
+
+.footer {
+	text-align: center;
+	margin: 20px;
+	color: white;
+	background: orange;
+	height: 70px;
+}
+
+.footer p{
+	padding-top:25px;
+}
+
+.footer a{
+	text-decoration: none; 
+	color: white;
+}
+
+.contact-form{
+  width: 85%;
+  max-width: 600px;
+  background: #fafafa;
+  position: relative;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+  font-family: "Montserrat",sans-serif;
+}
+.contact-form h1{
+  margin-top: 0;
+  font-weight: 200;
+}
+.txtb{
+  border:1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.txtb input,.txtb textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.btn{
+  display: inline-block;
+  background: orange;
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}
